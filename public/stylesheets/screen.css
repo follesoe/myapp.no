@@ -7,13 +7,43 @@ header, footer, aside, nav, article, section, meter {
 	display: block;
 }
 
-body { font-family: 'Ubuntu', arial, serif; }
+body {
+	padding: 40px;
+	background-color: Black;
+	font-family: 'Cantarell', arial, serif; 
+	color: White;
+}
 
 h1 {
-	font-size: 3em;
+	font-size: 3.2em;
+	font-weight: bold;
 }
 
 p {
-	font-size: 1.2em;
-	line-height: 155%;
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: 140%;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+p strong {
+	font-size: 1.8em;
+	font-weight: normal;
+}
+
+#reviews span {
+	display: none;
+}
+
+#reviews ul {
+	padding: 0;
+	margin: 0;
+}
+
+#reviews li {
+	margin: 0;
+	list-style-type: none;
 }

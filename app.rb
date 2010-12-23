@@ -16,6 +16,6 @@ get "/" do
 end
 
 get %r{^/tileflood/?$}i do
-  @title = "Tile Flood: a fun, simple and addictive puzzle game for Windows Phone 7!"
+  @title = "Tile Flood: a colorful, fun, simple and addictive puzzle game for Windows Phone 7!"
   erb :tileflood
 end
