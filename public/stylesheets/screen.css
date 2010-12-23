@@ -38,12 +38,42 @@ p strong {
 }
 
 li img {
-	width: 260px;
+	width: 276px;
+}
+
+#screenshotFrame {
+	float: right;
+	margin-left: 30px;
+}
+
+#frame {
+	position: relative;
+	z-index: 1;
+}
+
+#screenshotFrame ul {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 62px;
+	z-index: 2;
+}
+
+#screenshotFrame li {
+	display: none;
+}
+
+#screenshotFrame li:first-child {
+	display: block;
 }
 
 #appicon {
 	float: left;
 	margin-right: 40px;
+}
+
+#frame {
+	float: right;
+	margin-left: 30px;
 }
 
 #reviews span {
