@@ -37,6 +37,10 @@ p strong {
 	line-height: 130%;
 }
 
+li img {
+	width: 260px;
+}
+
 #appicon {
 	float: left;
 	margin-right: 40px;
@@ -46,12 +50,12 @@ p strong {
 	display: none;
 }
 
-#reviews ul {
+ul {
 	padding: 0;
 	margin: 0;
 }
 
-#reviews li {
+li {
 	margin: 0;
 	list-style-type: none;
 }

@@ -5,8 +5,27 @@
 	<link href='http://fonts.googleapis.com/css?family=Cantarell:regular,italic,bold' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" href="/stylesheets/screen.css">
+	<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<script src="/fancybox/jquery.easing-1.4.pack.js"></script>
+	<script src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
 </head>
 <body>
 	<%= yield %>
+	
+	<script>
+		$(document).ready(function() {
+		
+			$("ul li a").fancybox({
+					'transitionIn'	:	'elastic',
+					'transitionOut'	:	'elastic',
+					'speedIn'		:	600, 
+					'speedOut'		:	200, 
+					'overlayShow'	:	false
+			});
+			
+		});
+	</script>
 </body>
 </html>
