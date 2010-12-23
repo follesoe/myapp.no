@@ -1,0 +1,8 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, aside, nav, article, section {
+	display: block;
+}

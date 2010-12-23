@@ -15,7 +15,7 @@ get "/" do
   erb :index
 end
 
-get "/tileflood/?" do
+get %r{^/tileflood/?$}i do
   @title = "Tile Flood"
   erb :tileflood
 end
