@@ -3,6 +3,6 @@
 	padding: 0;
 }
 
-header, footer, aside, nav, article, section {
+header, footer, aside, nav, article, section, meter {
 	display: block;
 }
