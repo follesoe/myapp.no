@@ -1,7 +1,5 @@
 <section>
-	<img id="appicon" src="/images/SmallMobileAppTile.png" alt="Tile Flood Icon" />
-	<h1>Tile Flood</h1>
-	
+	<img id="appicon" src="/images/SmallMobileAppTile.png" alt="Tile Flood Icon" />	
 	<div id="screenshotFrame">
 		<img id="frame" src="/images/Omnia7Frame.png" alt="Omnia7 Frame" />
 		<div id="slides">
@@ -17,7 +15,9 @@
 		</div>
 	</div>
 	
-	<p><strong>A colorful, fun, simple and addictive puzzle game for Windows Phone 7.</strong></p>
+	<h1>Tile Flood</h1>
+	
+	<h2>A colorful, fun, simple and addictive puzzle game for Windows Phone 7.</h2>
 	
 	<p>The objective of the game is to flood all the tiles on the board in the same color. 
 	You start in the top left corner and flood the tiles by selecting one of the six colors. 
@@ -97,16 +97,8 @@
 <script>
 	$(document).ready(function() {
 		
-		$("#slides").cycle("fade");	
-		
-		$("#slides a").fancybox({
-				'transitionIn'	:	'elastic',
-				'transitionOut'	:	'elastic',
-				'speedIn'		:	600, 
-				'speedOut'		:	200, 
-				'overlayShow'	:	false
-		});
-		
+		$("#slides").cycle("fade");			
+		$("#slides a").fancybox({});		
 		
 	});
 	

@@ -8,38 +8,57 @@ header, footer, aside, nav, article, section, meter {
 }
 
 body {
-	padding: 40px;
 	background-color: Black;
+	background-image: url("/images/Backgroundart.png");
 	font-family: 'Cantarell', arial, serif; 
 	color: White;
 }
 
+section {
+	padding: 45px;
+	max-width: 860px;
+	background-color: black;
+	background: rgba(0, 0, 0, 0.9);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	border: 1px solid Black;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
 h1 {
 	font-family: 'Lobster', arial, serif; 
-	font-size: 5em;
+	font-size: 5.15em;
 	font-weight: bold;
-	margin-bottom: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 2.3em;
+	font-weight: normal;
+	line-height: 130%;
 }
 
 p {
-	font-size: 1.1em;
+	font-size: 1.12em;
 	font-weight: normal;
 	line-height: 140%;
+	text-align: justify;
 }
 
 blockquote {
 	font-style: italic;
 }
 
-p strong {
-	font-size: 1.8em;
-	font-weight: normal;
-	line-height: 130%;
-}
-
 #screenshotFrame {
 	float: right;
-	margin-left: 30px;
+	margin-left: 10px;
+	margin-top: 40px;
 }
 
 #frame {
@@ -49,13 +68,14 @@ p strong {
 
 #slides {
 	position: absolute;
-	margin-top: 90px;
-	margin-left: 60px;
+	margin-top: 80px;
+	margin-left: 61px;
 	z-index: 2;
 }
 
 #slides img {
-	width: 276px;
+	width: 280px;
+	border-style: none;
 }
 
 #appicon {
