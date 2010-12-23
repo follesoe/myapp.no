@@ -1,3 +1,4 @@
+# encoding: utf-8
 require "rubygems"
 require "sinatra"
 
@@ -9,6 +10,12 @@ helpers do
   end
 end
 
-get "/:name?" do
+get "/" do
+  @title = "Applications written by Jonas Follesø"
   erb :index
+end
+
+get "/tileflood/?" do
+  @title = "Tile Flood"
+  erb :tileflood
 end
