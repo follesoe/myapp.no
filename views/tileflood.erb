@@ -4,17 +4,17 @@
 	
 	<div id="screenshotFrame">
 		<img id="frame" src="/images/Omnia7Frame.png" alt="Omnia7 Frame" />
-		<ul>
-			<li><a rel="screenshot" href="/images/Screenshot1.PNG"><img src="/images/Screenshot1.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot2.PNG"><img src="/images/Screenshot2.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot3.PNG"><img src="/images/Screenshot3.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot4.PNG"><img src="/images/Screenshot4.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot5.PNG"><img src="/images/Screenshot5.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot6.PNG"><img src="/images/Screenshot6.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot7.PNG"><img src="/images/Screenshot7.PNG" /></a></li>
-			<li><a rel="screenshot" href="/images/Screenshot8.PNG"><img src="/images/Screenshot8.PNG" /></a></li>	
-			<li><a rel="screenshot" href="/images/Screenshot9.PNG"><img src="/images/Screenshot9.PNG" /></a></li>	
-		</ul>
+		<div id="slides">
+			<div><a rel="screenshot" href="/images/Screenshot1.PNG"><img src="/images/Screenshot1.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot2.PNG"><img src="/images/Screenshot2.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot3.PNG"><img src="/images/Screenshot3.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot4.PNG"><img src="/images/Screenshot4.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot5.PNG"><img src="/images/Screenshot5.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot6.PNG"><img src="/images/Screenshot6.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot7.PNG"><img src="/images/Screenshot7.PNG" /></a></div>
+			<div><a rel="screenshot" href="/images/Screenshot8.PNG"><img src="/images/Screenshot8.PNG" /></a></div>	
+			<div><a rel="screenshot" href="/images/Screenshot9.PNG"><img src="/images/Screenshot9.PNG" /></a></div>	
+		</div>
 	</div>
 	
 	<p><strong>A colorful, fun, simple and addictive puzzle game for Windows Phone 7.</strong></p>
@@ -94,3 +94,21 @@
 		</ul>
 	</section>
 </section>
+<script>
+	$(document).ready(function() {
+		
+		$("#slides").cycle("fade");	
+		
+		$("#slides a").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic',
+				'speedIn'		:	600, 
+				'speedOut'		:	200, 
+				'overlayShow'	:	false
+		});
+		
+		
+	});
+	
+</script>
+
