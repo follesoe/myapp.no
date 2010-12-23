@@ -15,8 +15,10 @@ body {
 }
 
 h1 {
-	font-size: 3.2em;
+	font-family: 'Lobster', arial, serif; 
+	font-size: 5em;
 	font-weight: bold;
+	margin-bottom: 0px;
 }
 
 p {
@@ -32,6 +34,12 @@ blockquote {
 p strong {
 	font-size: 1.8em;
 	font-weight: normal;
+	line-height: 130%;
+}
+
+#appicon {
+	float: left;
+	margin-right: 40px;
 }
 
 #reviews span {
