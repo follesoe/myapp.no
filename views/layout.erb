@@ -10,22 +10,9 @@
 	<script src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script src="/fancybox/jquery.easing-1.4.pack.js"></script>
 	<script src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script src="/script/snowstorm-min.js"></script>
 </head>
 <body>
 	<%= yield %>
-	
-	<script>
-		$(document).ready(function() {
-		
-			$("ul li a").fancybox({
-					'transitionIn'	:	'elastic',
-					'transitionOut'	:	'elastic',
-					'speedIn'		:	600, 
-					'speedOut'		:	200, 
-					'overlayShow'	:	false
-			});
-			
-		});
-	</script>
 </body>
 </html>
