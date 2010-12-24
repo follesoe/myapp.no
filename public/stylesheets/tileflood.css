@@ -30,6 +30,15 @@ section#main {
 	-webkit-border-radius: 20px;
 }
 
+footer {
+	margin-bottom: -40px;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.9em;
+}
+
 img {
 	border-style: none;
 }
