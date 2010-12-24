@@ -14,7 +14,7 @@ body {
 	color: White;
 }
 
-section {
+section#main {
 	padding: 45px;
 	max-width: 860px;
 	background-color: black;
@@ -42,6 +42,14 @@ h2 {
 	font-size: 2.3em;
 	font-weight: normal;
 	line-height: 130%;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin: 0;
+	font-family: 'Lobster', arial, serif; 
+	font-size: 1.2em;
 }
 
 p {
@@ -53,6 +61,8 @@ p {
 
 blockquote {
 	font-style: italic;
+	margin: 0;
+	padding: 0;
 }
 
 #screenshotFrame {
