@@ -63,17 +63,37 @@ p {
 	text-align: justify;
 }
 
-ul {
+#features {
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#features li {
+	height: 30px;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	font-size: 1.1em;
+}
+
+#features li:nth-child(1) { background-image: url("/images/Bullet1.png"); }
+#features li:nth-child(2) { background-image: url("/images/Bullet2.png"); }
+#features li:nth-child(3) { background-image: url("/images/Bullet3.png"); }
+#features li:nth-child(4) { background-image: url("/images/Bullet4.png"); }
+#features li:nth-child(5) { background-image: url("/images/Bullet5.png"); }
+#features li:nth-child(6) { background-image: url("/images/Bullet6.png"); }
+
+#quotes {
 	list-style-type: none;
 	background-color: red;
-	margin-top: 130px;
-	margin-bottom: 300px;
+	margin-top: 40px;
+	margin-bottom: 220px;
 	margin-left: 0px;
 	margin-right: 0px;
 	padding: 0px;
 }
 
-li {
+#quotes li {
 	padding: 0px;
 	margin: 0px;
 	float: left;
