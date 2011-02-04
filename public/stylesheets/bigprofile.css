@@ -1,0 +1,126 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+header, footer, aside, nav, article, section, meter {
+	display: block;
+}
+
+body {
+	background-color: #3b5998;
+	font-family: 'Cantarell', arial, serif; 
+	color: White;
+}
+
+section#main {
+	padding: 45px;
+	max-width: 860px;
+	background-color: black;
+	background: rgba(0, 0, 0, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	border: 1px solid Black;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+footer {
+	margin-bottom: -40px;
+	clear: both;
+}
+
+footer p {
+	text-align: center;
+	font-size: 0.9em;
+}
+
+img {
+	border-style: none;
+}
+
+h1 {
+	font-family: 'Permanent Marker', arial, serif; 
+	font-size: 3.4em;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 2.3em;
+	font-weight: normal;
+	line-height: 130%;
+	margin-top: 34px;
+	margin-bottom: 0px;
+}
+
+h3 {
+	margin: 0;
+	font-family: 'Permanent Marker', arial, serif; 
+	font-size: 1.4em;
+}
+
+p {
+	font-size: 1.12em;
+	font-weight: normal;
+	line-height: 140%;
+	text-align: justify;
+}
+
+#features {
+	list-style-type: none;
+	margin-top: 30px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+#features li {
+	height: 30px;
+	padding-left: 40px;
+	background-repeat: no-repeat;
+	font-size: 1.1em;
+}
+
+#features li:nth-child(1) { background-image: url("/images/Bullet7.png"); }
+#features li:nth-child(2) { background-image: url("/images/Bullet7.png"); }
+#features li:nth-child(3) { background-image: url("/images/Bullet7.png"); }
+#features li:nth-child(4) { background-image: url("/images/Bullet7.png"); }
+#features li:nth-child(5) { background-image: url("/images/Bullet7.png"); }
+#features li:nth-child(6) { background-image: url("/images/Bullet7.png"); }
+
+#screenshotFrame {
+	float: right;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#frame {
+	position: relative;
+	z-index: 1;
+}
+
+#slides {
+	position: absolute;
+	margin-top: 108px;
+	margin-left: 56px;
+	z-index: 2;
+}
+
+#slides img {
+	width: 290px;
+}
+
+#appicon {
+	float: left;
+	margin-right: 40px;
+}
+
+#frame {
+	float: right;
+	margin-left: 30px;
+}
