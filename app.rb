@@ -20,7 +20,7 @@ get %r{^/tileflood/?$}i do
   erb :tileflood
 end
 
-get "/BigProfile" do
+get %r{^/bigprofile/?$}i do
   @title = "Facebook Big Profile"
   erb :bigprofile
 end
