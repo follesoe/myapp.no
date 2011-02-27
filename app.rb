@@ -24,6 +24,10 @@ get "/BigProfileAppStore" do
   redirect "http://itunes.apple.com/no/app/facebook-big-profile/id417118743?mt=8"
 end
 
+get "/BigProfilePrivacy" do
+  erb :bigprofileprivacy
+end
+
 get %r{^/bigprofile/?$}i do
   @title = "Facebook Big Profile"
   erb :bigprofile
